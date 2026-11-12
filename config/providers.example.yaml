@@ -1,0 +1,22 @@
+# Provider connection metadata. Keep secrets in environment variables or a secret manager.
+# Do not commit real API keys.
+providers:
+  nvidia:
+    type: openai-compatible
+    base_url: "${NVIDIA_BASE_URL}"
+    api_key_env: "NVIDIA_API_KEY"
+  openrouter:
+    type: openai-compatible
+    base_url: "https://openrouter.ai/api/v1"
+    api_key_env: "OPENROUTER_API_KEY"
+  groq:
+    type: openai-compatible
+    base_url: "https://api.groq.com/openai/v1"
+    api_key_env: "GROQ_API_KEY"
+  google:
+    type: google-genai
+    api_key_env: "GOOGLE_API_KEY"
+  ollama:
+    type: ollama
+    base_url: "http://localhost:11434"
+    api_key_env: null

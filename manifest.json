@@ -1,11 +1,24 @@
 {
-  "agent_count": 44,
-  "specialist_agent_count": 43,
-  "skill_count": 110,
-  "tiers": {
-    "high": 15,
-    "mid": 20,
-    "small": 9
-  },
-  "note": "Tier counts include the primary orchestrator in High. The 43 specialist agents are distributed as 14 High, 20 Mid, 9 Small."
+  "framework": "Generic Multi-Agent Software + AI Engineering Framework",
+  "version": "2.0.0",
+  "agents": 44,
+  "skills": 110,
+  "functional_clusters": 10,
+  "model_tiers": [
+    "high",
+    "mid",
+    "small"
+  ],
+  "source_of_truth": [
+    "agents/",
+    "skills/",
+    "config/"
+  ],
+  "runtime_included": false,
+  "platform_adapters": [
+    "opencode",
+    "claude-code",
+    "codex",
+    "custom-python"
+  ]
 }

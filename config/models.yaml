@@ -1,0 +1,52 @@
+# Logical model registry — edit this file to choose actual model names.
+# Use the exact model identifier shown by your provider/API gateway.
+# These are examples/placeholders, not claims that a model is currently available.
+
+defaults:
+  tier: mid
+  fallback_tiers: [mid, high]
+  max_context_tokens: null
+
+tiers:
+  high:
+    provider: nvidia
+    model: "<YOUR_HIGH_MODEL_ID>"
+    purpose: "Architecture, difficult debugging, complex reasoning, high-impact review"
+    fallback:
+      - provider: openrouter
+        model: "<YOUR_HIGH_FALLBACK_MODEL_ID>"
+
+  mid:
+    provider: groq
+    model: "<YOUR_MID_MODEL_ID>"
+    purpose: "Coding, test design, implementation, structured analysis"
+    fallback:
+      - provider: openrouter
+        model: "<YOUR_MID_FALLBACK_MODEL_ID>"
+
+  small:
+    provider: google
+    model: "<YOUR_SMALL_MODEL_ID>"
+    purpose: "Classification, formatting, routine summaries and simple tasks"
+    fallback:
+      - provider: ollama
+        model: "<YOUR_LOCAL_SMALL_MODEL_ID>"
+
+# Optional per-agent overrides. Agent IDs must match files in agents/.
+agent_overrides:
+  sdlc-orchestrator:
+    tier: high
+  research-agent:
+    tier: high
+  debugging-agent:
+    tier: high
+  rag-evaluation-agent:
+    tier: high
+  developer:
+    tier: mid
+  tdd-agent:
+    tier: mid
+  requirements-validator:
+    tier: small
+  project-planning-agent:
+    tier: small

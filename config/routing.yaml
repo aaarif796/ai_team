@@ -1,0 +1,26 @@
+# Deterministic routing policy; runtime must implement and enforce this policy.
+routing:
+  default_tier: mid
+  rules:
+    - when: "critical_risk == true"
+      tier: high
+    - when: "reasoning_complexity == 'high'"
+      tier: high
+    - when: "reasoning_complexity == 'medium'"
+      tier: mid
+    - when: "reasoning_complexity == 'low' and risk == 'low'"
+      tier: small
+  escalation:
+    order: [small, mid, high]
+    max_attempts_per_tier:
+      small: 2
+      mid: 2
+      high: 1
+    max_total_attempts: 5
+    require_evidence_of_failure: true
+  constraints:
+    enforce_context_window: true
+    enforce_tool_call_compatibility: true
+    enforce_budget: true
+    enforce_timeout: true
+    never_fallback_across_data_residency_policy: true

@@ -1,0 +1,14 @@
+{
+  "name": "opencode-multi-agent-engineering-framework",
+  "version": "1.0.0",
+  "agents": 44,
+  "skills": 119,
+  "commands": [
+    "workflow-feature.md",
+    "workflow-bugfix.md",
+    "workflow-rag.md",
+    "workflow-ml.md"
+  ],
+  "platform": "OpenCode",
+  "runtime": "OpenCode native configuration and instruction pack; no separate scheduler"
+}

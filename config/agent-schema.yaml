@@ -1,0 +1,16 @@
+# Platform-neutral agent metadata schema (documentation contract, not a platform config).
+required:
+  - id
+  - name
+  - department
+  - default_model_tier
+  - skills
+optional:
+  - description
+  - tool_requirements
+  - permissions
+  - input_contract
+  - output_contract
+  - timeout_seconds
+  - max_steps
+allowed_model_tiers: [high, mid, small]
