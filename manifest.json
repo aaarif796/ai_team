@@ -1,0 +1,11 @@
+{
+  "agent_count": 44,
+  "specialist_agent_count": 43,
+  "skill_count": 110,
+  "tiers": {
+    "high": 15,
+    "mid": 20,
+    "small": 9
+  },
+  "note": "Tier counts include the primary orchestrator in High. The 43 specialist agents are distributed as 14 High, 20 Mid, 9 Small."
+}

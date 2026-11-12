@@ -1,0 +1,112 @@
+# Skill Index
+
+- `technical-research` — Research technical domains and compare solutions using reliable primary sources.
+- `source-evaluation` — Assess source authority, freshness, reproducibility and conflicts.
+- `feasibility-analysis` — Assess technical, operational, economic and schedule feasibility.
+- `problem-discovery` — Turn an ambiguous idea into a clear problem statement and measurable outcomes.
+- `stakeholder-analysis` — Map stakeholders, decision rights, needs and conflicts.
+- `workflow-mapping` — Represent current and proposed workflows.
+- `technology-assessment` — Select technologies against explicit workload and project criteria.
+- `architecture-decision-records` — Create concise, traceable architecture decisions.
+- `benchmark-analysis` — Design fair, reproducible technical benchmarks.
+- `project-planning` — Convert approved scope into an executable project plan.
+- `risk-management` — Identify, score, mitigate and monitor project risks.
+- `requirements-engineering` — Write testable functional and non-functional requirements.
+- `user-stories-acceptance-criteria` — Write user stories and measurable acceptance criteria.
+- `requirements-traceability` — Trace requirements to design, code, tests and releases.
+- `requirements-validation` — Check requirements for quality and testability.
+- `document-quality-check` — Validate technical documents for structure and consistency.
+- `system-architecture` — Design maintainable system boundaries and interactions.
+- `diagramming` — Create architecture and process diagrams.
+- `database-design` — Design data models and persistence structures.
+- `sql-performance` — Analyze and improve SQL performance safely.
+- `data-migrations` — Plan reversible, low-risk schema and data migrations.
+- `api-design` — Design stable, secure and documented APIs.
+- `openapi-contracts` — Create and validate OpenAPI contracts.
+- `software-implementation` — Implement scoped changes using project conventions.
+- `tdd` — Apply Red-Green-Refactor for features and bug fixes.
+- `secure-coding` — Apply secure coding practices and avoid common vulnerabilities.
+- `git-workflow` — Make reviewable, traceable Git changes.
+- `unit-testing` — Write isolated tests for small units of behavior.
+- `test-doubles-fixtures` — Use fixtures, mocks, stubs and fakes appropriately.
+- `static-analysis` — Run deterministic static checks and interpret findings.
+- `code-review` — Review changes for correctness, maintainability, security and regressions.
+- `debugging` — Reproduce and isolate software failures.
+- `root-cause-analysis` — Find underlying causes rather than treating symptoms.
+- `log-analysis` — Correlate logs and traces safely.
+- `bug-fixing` — Apply minimal, verified bug fixes.
+- `refactoring` — Improve internal structure without changing externally observable behavior.
+- `test-strategy` — Create risk-based test strategies and quality gates.
+- `test-design` — Design thorough and traceable test cases.
+- `functional-testing` — Verify application behavior against requirements.
+- `performance-testing` — Measure system performance under representative workloads.
+- `reliability-testing` — Test resilience, recovery and availability.
+- `accessibility-testing` — Evaluate accessibility against applicable standards.
+- `application-security-testing` — Perform authorized application security testing.
+- `threat-modeling` — Identify assets, trust boundaries, threats and mitigations.
+- `regression-testing` — Ensure changes do not break existing behavior.
+- `exploratory-testing` — Investigate product behavior using structured exploration.
+- `defect-management` — Track defects from discovery through verified closure.
+- `cicd-pipelines` — Build repeatable CI/CD workflows with quality gates.
+- `containerization` — Build secure and reproducible container images.
+- `software-supply-chain` — Reduce dependency and artifact supply-chain risk.
+- `release-management` — Prepare controlled software releases.
+- `deployment-strategies` — Plan safe rollouts and rollback.
+- `observability` — Instrument services for useful operational insight.
+- `logging-metrics-tracing` — Design correlated telemetry.
+- `incident-response` — Respond to incidents safely and systematically.
+- `maintenance-management` — Plan corrective, adaptive, perfective and preventive maintenance.
+- `data-engineering` — Build reliable data ingestion and transformation pipelines.
+- `etl-pipelines` — Implement ETL/ELT with reproducible transformations.
+- `data-versioning` — Version datasets and data transformations.
+- `data-quality` — Measure and enforce dataset quality.
+- `data-cleaning` — Clean datasets without destroying provenance.
+- `dataset-labeling` — Design labeling and annotation workflows.
+- `ml-model-selection` — Choose ML algorithms appropriate to data and objectives.
+- `ml-experiment-design` — Design reproducible ML experiments.
+- `feature-engineering` — Create leakage-safe ML features.
+- `feature-selection` — Select useful features without test leakage.
+- `model-training` — Train models reproducibly.
+- `hyperparameter-optimization` — Tune hyperparameters within a controlled budget.
+- `ml-model-evaluation` — Evaluate ML models with task-appropriate metrics.
+- `metric-selection` — Choose metrics aligned with business and error costs.
+- `llm-model-selection` — Select LLMs for quality, cost and operational fit.
+- `llm-integration` — Integrate LLM providers safely.
+- `structured-generation` — Constrain LLM output to machine-readable formats.
+- `rag-pipeline-engineering` — Build complete RAG pipelines.
+- `retrieval-engineering` — Design and tune retrieval systems.
+- `document-ingestion` — Ingest heterogeneous documents while preserving structure and provenance.
+- `prompt-engineering` — Create reliable, testable prompts.
+- `prompt-testing` — Test prompts across representative and adversarial inputs.
+- `structured-output-design` — Design stable output contracts.
+- `agentic-workflows` — Design bounded agent workflows.
+- `multi-agent-design` — Coordinate agents without duplicate or conflicting work.
+- `mcp-integration` — Integrate tools through Model Context Protocol safely.
+- `llm-evaluation` — Evaluate general LLM behavior using reproducible datasets.
+- `judge-model-evaluation` — Use LLM-as-judge with calibration and safeguards.
+- `llm-security-testing` — Assess LLM application security.
+- `prompt-injection-testing` — Test direct and indirect prompt injection defenses.
+- `responsible-ai` — Assess fairness, privacy, transparency and harmful output risks.
+- `rag-evaluation` — Evaluate retrieval, generation and complete RAG behavior separately.
+- `retrieval-metrics` — Compute ranking and retrieval metrics.
+- `generation-metrics` — Evaluate generated answers against context and references.
+- `rag-benchmarking` — Compare RAG configurations fairly.
+- `model-optimization` — Optimize model efficiency without unacceptable quality loss.
+- `gpu-performance` — Profile GPU workloads.
+- `quantization` — Apply and validate model quantization.
+- `model-serving` — Serve models reliably.
+- `inference-api-design` — Design production inference APIs.
+- `mlops` — Operationalize ML lifecycle.
+- `llmops` — Operationalize LLM applications.
+- `model-registry-and-versioning` — Manage immutable model and prompt versions.
+- `model-drift-detection` — Detect data, prediction and concept/performance drift.
+- `ai-observability` — Monitor AI systems end-to-end.
+- `statistical-monitoring` — Apply statistical checks to production signals.
+- `model-retraining` — Plan retraining based on evidence and governance.
+- `model-validation-and-promotion` — Validate candidate models before promotion.
+- `lifecycle-management` — Govern model lifecycle from experiment to retirement.
+- `task-decomposition` — Break requests into bounded tasks and dependencies.
+- `workflow-orchestration` — Execute task graphs with deterministic state transitions.
+- `llm-routing` — Route tasks to model tiers/providers.
+- `failure-recovery` — Recover from failed tasks without infinite loops.
+- `engineering-governance` — Apply engineering approvals and quality gates.
